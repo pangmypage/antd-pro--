@@ -1,0 +1,26 @@
+@import '~antd/lib/style/themes/default.less';
+
+.content {
+  margin: 24px;
+  padding-top: @layout-header-height;
+}
+
+.mytabs {
+  :global {
+    .ant-tabs-tab {
+          border-radius: 0 !important;
+          height: 30px !important;
+          line-height: 30px !important;
+      }
+      .ant-tabs-bar{
+        border:none !important;
+        margin: 0 !important; 
+      }
+      .ant-tabs-tab-active{
+        color: #ffffff !important;
+        background: #42b983 !important;
+        border: 1px solid #42b983 !important;
+      }
+    }
+}
+
